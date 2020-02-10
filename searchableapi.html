@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Searchable API</title>
+    <link rel="stylesheet" type="text/css" href="searchable.css"></link>
+</head>
+<body>
+    <h1>API search</h1>
+    <main>
+        <label for="type">Type here</label><input type="text" id="type"></input>
+        <label for="select">Select one</label>
+        <select>
+            <option value="opt1">Country</option>
+            <option value="opt2">State</option>
+            <option value="opt3">City</option>
+            <option value="opt4">Town</option>
+        </select>
+        <div class="col-12 col-md-3"><button class="btn btn-light" id="searchit">Search</button></div>
+    </main>
+    <script href="./searchable.ts"></script>
+</body>
+</html>
